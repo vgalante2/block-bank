@@ -30,7 +30,7 @@ a {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #db00d9 #ffffff;
+  scrollbar-color: #A5D0FF #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -46,16 +46,16 @@ a {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ba04b7;
+  background-color: #A5D0FF;
   border: 1px solid #ffffff;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #ed00eb;
+  background-color: #A5D0FF;
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #ed00eb;
+  background-color: #A5D0FF;
 }
 
 .loader {
@@ -63,7 +63,7 @@ a {
   width: 64px;
   height: 64px;
   position: relative;
-  background-image: linear-gradient(#fff 16px, transparent 0), linear-gradient(#ff00ea 16px, transparent 0), linear-gradient(#ff00ea 16px, transparent 0), linear-gradient(#fff 16px, transparent 0);
+  background-image: linear-gradient(#fff 16px, transparent 0), linear-gradient(#A5D0FF 16px, transparent 0), linear-gradient(#A5D0FF 16px, transparent 0), linear-gradient(#fff 16px, transparent 0);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left top, left bottom, right top, right bottom;
@@ -94,7 +94,7 @@ a {
 }
 
 .logo {
-  height: 90px;
+  height: 40px;
 }
 
 nav {
@@ -246,7 +246,7 @@ nav a {
 }
 @media (max-width: 750px) {
   .heroContent {
-    top: 8.5%;
+    top: 7.5%;
   }
 }
 @media (max-width: 400px) {
@@ -284,7 +284,7 @@ nav a {
 }
 @media (max-width: 500px) {
   .heroContentText {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 .heroContentText span {
@@ -293,6 +293,11 @@ nav a {
   -webkit-background-clip: text;
   color: transparent;
   font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  .heroContentText span {
+    font-size: 1.5rem;
+  }
 }
 .heroContentText span {
   background-clip: text;
@@ -478,7 +483,7 @@ nav a {
 }
 @media (max-width: 430px) {
   .marketContent h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 .marketContent .coinList {
@@ -501,10 +506,16 @@ nav a {
   border-radius: 8px 8px 0 0;
   gap: 2rem;
 }
-@media (max-width: 400px) {
+@media (max-width: 350px) {
   .marketContent .coinList .top {
     display: flex;
     justify-content: space-between;
+  }
+}
+@media (max-width: 400px) {
+  .marketContent .coinList .top p {
+    width: 9rem;
+    text-align: center;
   }
 }
 @media (max-width: 800px) {
@@ -623,6 +634,11 @@ nav a {
   font-family: "Sigmar", cursive;
   margin-bottom: 10rem;
 }
+@media (max-width: 400px) {
+  .choose-container h1 {
+    font-size: 2rem;
+  }
+}
 .choose-container h2 {
   font-size: 2.5rem;
   color: rgb(255, 255, 255);
@@ -729,6 +745,11 @@ nav a {
   color: white;
   font-family: "Sigmar", cursive;
 }
+@media (max-width: 400px) {
+  .joinus-section .joinus-content h1 {
+    font-size: 1.5rem;
+  }
+}
 .joinus-section .joinus-content h1 span {
   color: #A5D0FF;
 }
@@ -752,10 +773,11 @@ nav a {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
+  color: black;
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .joinus-section .joinus-content button {
-    left: 70px;
+    left: 60px;
   }
 }
 
