@@ -1,0 +1,99 @@
+
+
+.joinus-section {
+    padding: 5rem;
+    background-color: #0f051d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    & .joinus-content {
+     padding-top: 90px;
+        flex-direction: column;
+
+
+        
+
+h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    color: white;
+    font-family: 'Sigmar', cursive;
+
+
+    span {
+        color: #A5D0FF;
+        
+    }
+}
+
+p{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-image: linear-gradient(to right, #5587e4 30%, #aba0ff 70%);
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    padding: 2px;
+    position: relative;
+    top: 30px;
+    left: 34%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+    @media (max-width: 500px) {
+        left: 70px;
+    }
+}
+
+    }
+}
+
+.stellar {
+    position: relative;
+    left: -300px;
+    top: 200px;
+    height: 200px;
+    width: auto;
+    @media (max-width: 1200px) {
+        left: -200px;
+      }
+      @media (max-width: 1000px) {
+        left: -160px;
+      }
+      @media (max-width: 900px) {
+        display: none;
+      }
+}
+
+.btc{ 
+    position: relative;
+    left: 620px;
+    bottom: 250px;
+    right: 200px;
+    height: 200px;
+    width: auto;
+
+    @media (max-width: 1200px) {
+        left: -200px;
+      }
+      @media (max-width: 1000px) {
+        left: -160px;
+      }
+      @media (max-width: 900px) {
+        display: none;
+      }
+
+}
+
+
+
