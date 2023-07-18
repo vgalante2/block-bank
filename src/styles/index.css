@@ -847,9 +847,9 @@ nav a {
   height: 100vh;
   background-image: linear-gradient(to top, black, rgb(111, 164, 255));
 }
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
   .coin-page {
-    min-height: 100%;
+    height: 150vh;
   }
 }
 
