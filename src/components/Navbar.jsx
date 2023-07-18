@@ -74,7 +74,7 @@ function Navbar() {
     <i onClick={openMobile} className="fa-solid fa-xmark close-mobile"></i>
     <ul>
       <li onClick={openMobile}>
-        <a href="#home">Home</a>
+        <a href="/">Home</a>
       </li>
       <li onClick={openMobile}>
         <a href="#market">Market</a>
