@@ -747,8 +747,9 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     width: 100%;
+    text-align: center;
   }
 }
 .joinus-section .joinus-content h1 span {
@@ -784,7 +785,7 @@ nav a {
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
     position: relative;
-    left: 1px;
+    left: 10px;
   }
 }
 
@@ -890,7 +891,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .coin-content__img-side {
-    width: 90%;
+    padding: 5px;
   }
 }
 .coin-content__img-side h2 {

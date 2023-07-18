@@ -23,9 +23,9 @@ h1 {
 
 
     @media (max-width: 400px) {
-      font-size: 4rem;
+      font-size: 3.6rem;
       width: 100%;
-
+      text-align: center;
     }
 
     span {
@@ -64,7 +64,7 @@ button {
 
     @media (max-width: 400px) {
         position: relative;
-      left: 1px;
+      left: 10px;
     }
 }
 
