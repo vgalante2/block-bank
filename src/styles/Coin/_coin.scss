@@ -106,19 +106,16 @@ display: flex;
 justify-content: center;
 white-space: nowrap;
 gap: 1rem;
-font-size: 2rem;
+font-size: 1rem;
 
 p {
     span {
         color: rgb(0, 0, 0);
         text-transform: uppercase;
+      
     }
 }
 
-@media (max-width: 500px) {
- position: relative;
- bottom: 10px;
-}
 
 
 }
@@ -129,12 +126,20 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-size: 2rem;
+    padding-right: 20px;
+    padding-left: 20px;
   
     @media (max-width: 1000px) {
       flex-wrap: wrap;
       gap: 1.5rem;
       justify-content: center;
     }
+
+    @media (max-width: 500px) {
+     font-size: 1rem;
+     }
+
   }
   
   .description {

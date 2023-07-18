@@ -544,7 +544,7 @@ nav a {
 .marketContent .coinList .pagination {
   display: flex;
   gap: 1.3rem;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 5rem;
 }
@@ -555,6 +555,8 @@ nav a {
   border-radius: 20%;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
 }
 .marketContent .activePagi {
   background: #0f051d;
@@ -946,28 +948,30 @@ nav a {
   justify-content: center;
   white-space: nowrap;
   gap: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .coin-content__img-side__text-side__24h p span, .coin-content__img-side__text-side__current p span, .coin-content__img-side__text-side__symbol p span {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
-@media (max-width: 500px) {
-  .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
-    position: relative;
-    bottom: 10px;
-  }
-}
 .coin-content .numb {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  font-size: 2rem;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 @media (max-width: 1000px) {
   .coin-content .numb {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .coin-content .numb {
+    font-size: 1rem;
   }
 }
 .coin-content .description {

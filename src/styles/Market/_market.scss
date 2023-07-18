@@ -89,7 +89,7 @@
       & .pagination {
         display: flex;
         gap: 1.3rem;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-top: 5rem;
   
@@ -100,6 +100,8 @@
           border-radius: 20%;
           cursor: pointer;
           background-color: rgb(255, 255, 255);
+          align-items: center;
+          justify-content: center;
         }
       }
     }
