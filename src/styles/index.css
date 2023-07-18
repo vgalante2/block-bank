@@ -869,11 +869,6 @@ nav a {
     padding-top: 33rem;
   }
 }
-@media (max-width: 400px) {
-  .coin-content {
-    min-height: 100vh;
-  }
-}
 .coin-content__img-side {
   flex-direction: row;
   padding-right: 50px;
@@ -936,11 +931,6 @@ nav a {
   .coin-content__img-side__text-side {
     width: 100%;
     padding: 2rem 1rem;
-  }
-}
-@media (max-width: 400px) {
-  .coin-content__img-side__text-side {
-    min-height: 100vh;
   }
 }
 .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
