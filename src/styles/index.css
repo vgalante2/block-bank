@@ -361,7 +361,7 @@ nav a {
 }
 @media (max-width: 450px) {
   .eth {
-    right: -150px;
+    right: -170px;
     top: -50px;
     height: 500px;
     width: auto;
