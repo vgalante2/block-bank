@@ -177,6 +177,11 @@ nav a {
   margin-top: 0;
   color: white;
 }
+@media (max-width: 400px) {
+  .sticky-nav {
+    height: 60px;
+  }
+}
 
 .mobile-nav {
   display: flex;
@@ -784,8 +789,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
-    position: relative;
-    left: 10px;
+    align-items: center;
   }
 }
 
@@ -861,11 +865,6 @@ nav a {
   .coin-content {
     flex-direction: column;
     padding-top: 33rem;
-  }
-}
-@media (max-width: 400px) {
-  .coin-content {
-    height: 100%;
   }
 }
 .coin-content__img-side {
