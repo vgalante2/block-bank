@@ -544,7 +544,7 @@ nav a {
 .marketContent .coinList .pagination {
   display: flex;
   gap: 1.3rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 5rem;
 }
