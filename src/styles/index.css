@@ -359,7 +359,7 @@ nav a {
     right: -190px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .eth {
     right: -270px;
     top: -5px;
