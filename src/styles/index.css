@@ -321,20 +321,22 @@ nav a {
 }
 @media (max-width: 1200px) {
   .ripple {
-    left: -160px;
-    top: 150px;
+    left: -190px;
+    top: -2px;
   }
 }
 @media (max-width: 1000px) {
   .ripple {
-    left: -110px;
-    top: 110px;
+    left: -190px;
+    top: -2px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .ripple {
-    left: -70px;
-    top: -100px;
+    left: -270px;
+    top: -5px;
+    height: 700px;
+    width: auto;
   }
 }
 
@@ -348,17 +350,21 @@ nav a {
 }
 @media (max-width: 1200px) {
   .eth {
-    right: -200px;
+    right: -190px;
+    top: -10px;
   }
 }
 @media (max-width: 1000px) {
   .eth {
-    right: -160px;
+    right: -190px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .eth {
-    display: none;
+    right: -270px;
+    top: -5px;
+    height: 700px;
+    width: auto;
   }
 }
 
