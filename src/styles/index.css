@@ -787,9 +787,9 @@ nav a {
   font-weight: bolder;
   color: black;
 }
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   .joinus-section .joinus-content button {
-    left: 17px;
+    left: 15px;
   }
 }
 
