@@ -747,7 +747,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 }
 .joinus-section .joinus-content h1 span {
@@ -783,7 +783,7 @@ nav a {
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
     position: relative;
-    left: 5px;
+    left: -5px;
   }
 }
 
@@ -839,6 +839,11 @@ nav a {
   height: 100vh;
   background-image: linear-gradient(to top, black, rgb(111, 164, 255));
 }
+@media (max-width: 400px) {
+  .coin-page {
+    height: 100%;
+  }
+}
 
 .coin-content {
   display: flex;
@@ -858,7 +863,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .coin-content {
-    height: 100;
+    height: 100%;
   }
 }
 .coin-content__img-side {
@@ -884,7 +889,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .coin-content__img-side {
-    height: 100%;
+    width: 90%;
   }
 }
 .coin-content__img-side h2 {
@@ -923,6 +928,11 @@ nav a {
   .coin-content__img-side__text-side {
     width: 100%;
     padding: 2rem 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .coin-content__img-side__text-side {
+    height: 100%;
   }
 }
 .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
