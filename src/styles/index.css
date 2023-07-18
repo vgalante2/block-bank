@@ -789,7 +789,7 @@ nav a {
 }
 @media (max-width: 500px) {
   .joinus-section .joinus-content button {
-    left: 5px;
+    left: 7px;
   }
 }
 
@@ -936,7 +936,7 @@ nav a {
     padding: 2rem 1rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .coin-content__img-side__text-side {
     height: 100vh;
     padding: 2rem 1rem;
@@ -953,7 +953,7 @@ nav a {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
     position: relative;
     bottom: 10px;
