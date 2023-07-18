@@ -957,11 +957,7 @@ nav a {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
-  }
-}
-@media (max-width: 500px) {
-  .coin-content .numb {
-    font-size: 1rem;
+    font-size: 3rem;
   }
 }
 .coin-content .description {
