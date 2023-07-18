@@ -39,7 +39,7 @@ function Coin() {
 
   return (
     <>
-    <img src={logo} alt="Logo" />
+   
       <section className="coin-page">
         <div className="container">
           <div onLoad={() => setLoadCoin(false)} className="coin-content">
