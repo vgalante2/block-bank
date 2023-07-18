@@ -636,7 +636,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .choose-container h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
 .choose-container h2 {
@@ -747,7 +747,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 .joinus-section .joinus-content h1 span {
@@ -758,6 +758,11 @@ nav a {
   font-size: 2.5rem;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+@media (max-width: 400px) {
+  .joinus-section .joinus-content p {
+    font-size: 1.5rem;
+  }
 }
 .joinus-section .joinus-content button {
   background-image: linear-gradient(to right, #5587e4 30%, #aba0ff 70%);
@@ -777,7 +782,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
-    left: 60px;
+    left: 40px;
   }
 }
 
