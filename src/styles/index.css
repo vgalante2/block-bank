@@ -789,7 +789,6 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
-    position: relative;
     left: 30px;
   }
 }
@@ -955,7 +954,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
-    padding-top: 5px;
+    padding-top: 20px;
   }
 }
 .coin-content .numb {
