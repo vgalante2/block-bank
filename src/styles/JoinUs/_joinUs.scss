@@ -23,8 +23,9 @@ h1 {
 
 
     @media (max-width: 400px) {
-      font-size: 3.5rem;
-   }
+      font-size: 4rem;
+
+    }
 
     span {
         color: #A5D0FF;
@@ -61,7 +62,8 @@ button {
     color: black;
 
     @media (max-width: 400px) {
-        left: 25px;
+        position: relative;
+      left: 5px;
     }
 }
 
