@@ -333,9 +333,9 @@ nav a {
 }
 @media (max-width: 450px) {
   .ripple {
-    left: -270px;
+    right: -270px;
     top: -5px;
-    height: 400px;
+    height: 600px;
     width: auto;
   }
 }
@@ -966,7 +966,6 @@ nav a {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
-    font-size: 3.2rem;
   }
 }
 .coin-content .description {
