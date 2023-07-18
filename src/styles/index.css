@@ -845,7 +845,7 @@ nav a {
   height: 100vh;
   background-image: linear-gradient(to top, black, rgb(111, 164, 255));
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .coin-page {
     min-height: 100%;
   }
@@ -867,7 +867,7 @@ nav a {
     padding-top: 33rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .coin-content {
     min-height: 100vh;
   }
@@ -936,9 +936,9 @@ nav a {
     padding: 2rem 1rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .coin-content__img-side__text-side {
-    height: 100vh;
+    min-height: 100vh;
   }
 }
 .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
