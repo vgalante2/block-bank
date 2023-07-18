@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DOMPurify from "dompurify";
-import "./BBlogo.png"
+import "../BBlogo.png"
 
 function Coin() {
   const { coinId } = useParams();
