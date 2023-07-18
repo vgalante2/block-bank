@@ -747,7 +747,7 @@ nav a {
 }
 @media (max-width: 400px) {
   .joinus-section .joinus-content h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     width: 100%;
   }
 }
@@ -784,7 +784,7 @@ nav a {
 @media (max-width: 400px) {
   .joinus-section .joinus-content button {
     position: relative;
-    left: -5px;
+    left: 1px;
   }
 }
 
