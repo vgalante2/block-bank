@@ -333,8 +333,8 @@ nav a {
 }
 @media (max-width: 450px) {
   .ripple {
-    left: -200px;
-    top: -50px;
+    left: -180px;
+    top: -70px;
     height: 450px;
     width: auto;
   }
