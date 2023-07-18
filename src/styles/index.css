@@ -748,6 +748,7 @@ nav a {
 @media (max-width: 400px) {
   .joinus-section .joinus-content h1 {
     font-size: 5rem;
+    width: 100%;
   }
 }
 .joinus-section .joinus-content h1 span {
