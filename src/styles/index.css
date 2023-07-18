@@ -334,7 +334,7 @@ nav a {
 @media (max-width: 450px) {
   .ripple {
     left: -200px;
-    top: -75px;
+    top: -95px;
     height: 500px;
     width: auto;
   }
@@ -362,7 +362,7 @@ nav a {
 @media (max-width: 450px) {
   .eth {
     right: -270px;
-    top: 75px;
+    top: 95px;
     height: 500px;
     width: auto;
   }
