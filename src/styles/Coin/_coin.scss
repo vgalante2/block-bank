@@ -3,7 +3,7 @@
     height: 100vh;
     background-image: linear-gradient(to top, black, rgb(111, 164, 255));
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   min-height: 100%;
 }
 
@@ -24,7 +24,7 @@ height: 100vh;
     padding-top: 33rem;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
     min-height: 100vh;
   }
 
@@ -94,7 +94,7 @@ justify-content: space-between;
     padding: 2rem 1rem;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
     min-height: 100vh;
     
   }
