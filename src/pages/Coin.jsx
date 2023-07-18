@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DOMPurify from "dompurify";
-
+import "../BBlogo.png"
 
 function Coin() {
   const { coinId } = useParams();
   const [coin, setCoin] = useState({});
   const [loadCoin, setLoadCoin] = useState(true);
 
+
+  const logo = "/BBlogo.png";
   const url = `https://api.coingecko.com/api/v3/coins/${coinId}`;
 
   useEffect(() => {
@@ -37,6 +39,7 @@ function Coin() {
 
   return (
     <>
+    <img src={logo} alt="Logo" />
       <section className="coin-page">
         <div className="container">
           <div onLoad={() => setLoadCoin(false)} className="coin-content">

@@ -939,7 +939,6 @@ nav a {
 @media (max-width: 500px) {
   .coin-content__img-side__text-side {
     height: 100vh;
-    padding: 2rem 1rem;
   }
 }
 .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
@@ -953,7 +952,7 @@ nav a {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .coin-content__img-side__text-side__24h, .coin-content__img-side__text-side__current, .coin-content__img-side__text-side__symbol {
     position: relative;
     bottom: 10px;
