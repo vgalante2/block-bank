@@ -13,6 +13,7 @@ function Footer() {
             </div>
             <div className="footer-content__text">
               <p>Privacy</p>
+              <p>by cenzo*</p>
               <p>Terms of Use</p>
             </div>
           </div>
