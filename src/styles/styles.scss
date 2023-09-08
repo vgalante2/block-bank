@@ -1,10 +1,11 @@
-@forward "./Global/boilerplate";
-@forward "./Global/typography";
-@forward "./Navbar/navbar";
-@forward "./Hero/hero";
-@forward "./Market/market";
-@forward "./WhyUs/whyus";
-@forward "./JoinUs/joinUs";
-@forward "./Coin/coin";
-@forward "./Footer/footer";
+@import "./global/boilerplate";
+@import "./global/typography";
+@import "./Navbar/navbar";
+@import "./Hero/hero";
+@import "./Market/market";
+@import "./WhyUs/whyus";
+@import "./JoinUs/joinUs";
+@import "./Coin/coin";
+@import "./Footer/footer";
+
 
