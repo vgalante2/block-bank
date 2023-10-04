@@ -54,7 +54,7 @@ nav {
         font-weight: 700;
   
         &:hover {
-         color: $light-blue;
+         color: $main-blue;
         }
       }
     }
@@ -66,7 +66,7 @@ nav {
   
       i {
         cursor: pointer;
-        color: $light-blue;
+        color: $main-blue;
         
 
         @media (max-width: 750px) {
