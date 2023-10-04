@@ -3,7 +3,9 @@ $lght-blue: #335398;
 $main-blue: #A5D0FF;
 
 
-
+body {
+  overflow-x: hidden;
+}
 
 
 * {
@@ -30,7 +32,7 @@ $main-blue: #A5D0FF;
     max-width: 130rem !important;
     margin: 0 auto !important;
     padding: 0 2.5rem !important;
-  
+    
   }
   
   // scroll
