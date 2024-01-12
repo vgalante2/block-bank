@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Market() {
 const [data, setData] = useState([])
-const [currentPage, setCurrentPage] = useState([]);
+const [currentPage, setCurrentPage] = useState(1);
 const [apiLoad, setApiLoad] = useState(true);
  
 
@@ -18,12 +18,21 @@ function numberWithCommas(x) {
 
   useEffect(() => {
     const fetchData = async () => {
+      try {
         const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const json = await response.json();
         setData(json);
-    }
+      } catch (error) {
+        console.error("Error fetching data: ", error);
+        // Handle the error state here
+      } finally {
+        setApiLoad(false);
+      }
+    };
     fetchData();
-
   }, [url]);
 
  
